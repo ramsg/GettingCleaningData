@@ -6,9 +6,31 @@ This Database contains tidy data set with the average of each variable (measurem
 
 Each row identifies the subject who performed the activity and the mean of the 66 measurements.
 
+Subject : Range 1:30
+
+Activity.Type : Range 1:6
+
+Avtivity.Description : 
+
+        1 WALKING
+        
+        2 WALKING_UPSTAIRS
+        
+        3 WALKING_DOWNSTAIRS
+        
+        4 SITTING
+        
+        5 STANDING
+        
+        6 LAYING
+
+
 The measurements "Mean" suffix with the co-ordinate are the Mean for that Subject for a given activity
 
 Similarly, the "Std" Suffix with the axis co-ordinate represnts the mean of the standard deviation
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 * Subject
 * Activity.Type
